@@ -1,0 +1,8 @@
+# node
+/node_modules
+
+# project-source
+/dist
+
+# storybook
+/storybook-static
