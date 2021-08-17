@@ -1,6 +1,6 @@
 {
   "name": "@mm-t-kiriyama/prototype-react-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "prototype-react-component for front-end team",
   "main": "dist/index.js",
   "scripts": {
