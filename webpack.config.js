@@ -1,8 +1,11 @@
 const path = require('path');
+const glob = require('glob');
+
+const entries = glob.sync('./packages/**/index.ts');
 
 module.exports = {
     mode: 'development',
-    entry: './src/index.ts',
+    entry: entries,
     output: {
         filename: 'index.js',
         path: path.join(__dirname, 'dist'),

@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "test",
+    "compile": "tsc -b tsconfig.build.json",
     "build": "webpack",
     "watch": "webpack -w",
     "prepublishOnly": "npm run build",
@@ -13,6 +14,9 @@
   },
   "author": "mm-t-kiriyama",
   "license": "UNLICENSED",
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@storybook/addon-actions": "^6.4.0-alpha.30",
@@ -24,6 +28,7 @@
     "@types/react": "^17.0.18",
     "@types/react-dom": "^17.0.9",
     "babel-loader": "^8.2.2",
+    "glob": "^7.1.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "ts-loader": "^9.2.5",
@@ -34,6 +39,5 @@
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  },
-  "dependencies": {}
+  }
 }
