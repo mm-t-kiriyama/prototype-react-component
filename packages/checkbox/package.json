@@ -7,8 +7,20 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "mm-t-kiriyama",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/mm-t-kiriyama/prototype-react-component#readme",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://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:x-oauth-basic@github.com/mm-t-kiriyama/prototype-react-component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mm-t-kiriyama/prototype-react-component/issues"
+  }
 }

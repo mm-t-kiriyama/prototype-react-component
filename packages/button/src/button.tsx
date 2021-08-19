@@ -1,10 +1,10 @@
 import React from "react";
 
-export type Props = {
+export type ButtonProps = {
     label: string
 }
 
-const Button : React.FC<Props> = ({ label }) => {
+const Button : React.FC<ButtonProps> = ({ label }) => {
     return <button>{label}</button>
 }
 

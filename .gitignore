@@ -3,6 +3,10 @@
 
 # project-source
 /dist
+packages/*/dist
 
 # storybook
 /storybook-static
+
+# lerna
+lerna-debug.log

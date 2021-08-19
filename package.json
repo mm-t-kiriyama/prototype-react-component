@@ -1,6 +1,7 @@
 {
   "name": "@mm-t-kiriyama/prototype-react-component",
   "version": "1.0.7",
+  "private": true,
   "description": "prototype-react-component for front-end team",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +11,8 @@
     "watch": "webpack -w",
     "prepublishOnly": "npm run build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build:lerna": "lerna build"
   },
   "author": "mm-t-kiriyama",
   "license": "UNLICENSED",
@@ -29,6 +31,7 @@
     "@types/react-dom": "^17.0.9",
     "babel-loader": "^8.2.2",
     "glob": "^7.1.7",
+    "lerna": "^4.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "ts-loader": "^9.2.5",

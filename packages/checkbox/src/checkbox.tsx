@@ -1,11 +1,11 @@
 import React from "react";
 
-export type Props = {
+export type CheckboxProps = {
   name: string;
   label: string;
 };
 
-const Checkbox: React.FC<Props> = ({ name, label }) => {
+const Checkbox: React.FC<CheckboxProps> = ({ name, label }) => {
   return (
     <>
       <input type="checkbox" name={name} id={name} />
